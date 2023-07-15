@@ -1,4 +1,5 @@
 import throttle from 'lodash.throttle';
+import SimpleLightbox from 'simplelightbox';
 const LOCAL_KEY = 'feedback-form-state';
 
 form = document.querySelector('.feedback-form');
