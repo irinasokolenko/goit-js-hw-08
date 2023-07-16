@@ -25,5 +25,5 @@ player
     console.log('The new color value: #D8E0FF');
   })
   .catch(function (error) {
-    console.log('An error occurred while setting the color');
+    // console.log('An error occurred while setting the color');
   });
