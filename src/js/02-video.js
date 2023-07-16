@@ -22,8 +22,8 @@ player.setCurrentTime(JSON.parse(localStorage.getItem(CURRENT_TIME_KEY)) || 0);
 player
   .setColor('#d8e0ff')
   .then(function (color) {
-    console.log('The new color value: #D8E0FF');
+    console.log('The new color value: #D5E0FF');
   })
   .catch(function (error) {
-    // console.log('An error occurred while setting the color');
+    console.log('An error occurred while setting the color');
   });
